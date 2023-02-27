@@ -1,9 +1,8 @@
 language: go
 go:
-  - 1.8.3
+  - 1.20
 before_install:
-  - go get github.com/Masterminds/glide
-  - glide install
+  - go mod download
 script:
   - go install
   - go test -v

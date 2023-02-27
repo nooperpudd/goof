@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/akutz/goof"
+	"github.com/nooperpudd/goof"
 	log "github.com/sirupsen/logrus"
 )
 
